@@ -1,0 +1,70 @@
+.list--header {
+    display: flex;
+    margin: 2rem 0;
+    justify-content: space-between;
+}
+.list--container {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: space-between;
+}
+.list {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s ease-in-out;
+}
+.teacher--detail {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+    color: #526d82;
+    justify-content: space-between;
+}
+
+.list:hover {
+    background: #dde6ed;
+    border-radius: 10px;
+}
+.buttonflex2 {
+    gap: 20px;
+    align-items: center;
+    justify-content: end;
+    display: flex;
+    height: 30px;
+    width: 100%;
+}
+button {
+    border: 2px solid #6e6e6e;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #5a5959;
+    transition: 0.3s ease-in-out;
+}
+button:hover {
+    color: #fff;
+    border: none;
+    background: #5a5959;
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.buttonlay {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.bill {
+    width: 140px;
+}
+.bar {
+    color: #526d82;
+    display: inline-block;
+    justify-content: space-between;
+}
