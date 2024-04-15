@@ -11,6 +11,7 @@ const App = () => {
       <Sidebar />
       <div className="barcontent">
         <Navbar />
+        <Profile />
         <Internship />
       </div>
     </div>

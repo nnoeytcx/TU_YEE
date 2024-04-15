@@ -5,9 +5,11 @@
 .barcontent {
   border-radius: 20px;
   background: #526d82;
-  height: 700px;
+  height: auto;
   display: flex;
   flex: 1;
   flex-direction: column;
   justify-content: space-between;
+  padding : 20px;
+  gap: 20px;
 }

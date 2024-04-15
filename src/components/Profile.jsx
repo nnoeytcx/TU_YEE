@@ -62,8 +62,6 @@ const Profile = () => {
               <button>Drop</button></div>
           </div>
         </div>
-
-
       </div>
       <Content />
     </div>

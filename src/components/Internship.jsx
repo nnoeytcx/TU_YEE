@@ -6,7 +6,7 @@ import '../styles/internship.css'
 const Internship = () => {
   return (
     <div>
-        <div className="dashboard--content">
+        <div className="dashboard--content2">
             <Card />
             <Newsbox />
             <Newsbox />
