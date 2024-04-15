@@ -10,17 +10,16 @@
     justify-content: space-between;
 }
 .list {
-    display: flex;
+    display: inline-block;
     height: 40px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     transition: 0.3s ease-in-out;
 }
 .teacher--detail {
     display: flex;
     align-items: center;
-    padding: 20px;
-    gap: 30px;
+    padding: 10px;
     color: #526d82;
     justify-content: space-between;
 }
@@ -66,5 +65,6 @@ button:hover {
 .bar {
     color: #526d82;
     display: inline-block;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }

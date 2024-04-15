@@ -1,8 +1,8 @@
 import React from 'react';
 import Sidebar from './components/Sidebar';
 import Profile from './components/Profile';
-import Content from './components/Content';
 import Navbar from './components/Navbar';
+import Internship from './components/Internship';
 import './App.css';
 
 const App = () => {
@@ -11,10 +11,7 @@ const App = () => {
       <Sidebar />
       <div className="barcontent">
         <Navbar />
-        <div className="dashboard--content">
-          <Profile />
-          <Content />
-        </div>
+        <Internship />
       </div>
     </div>
   );
