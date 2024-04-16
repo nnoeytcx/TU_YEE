@@ -6,12 +6,15 @@ import '../styles/internship.css'
 const Internship = () => {
   return (
     <div>
-        <div className="dashboard--content2">
-            <Card />
-            <Newsbox />
-            <Newsbox />
-            <Newsbox />
+      <div className="dashboard--content2">
+        <div className="intern--header">
+          <h2>Internship</h2>
         </div>
+        <Card />
+        <Newsbox />
+        <Newsbox />
+        <Newsbox />
+      </div>
     </div>
   )
 }

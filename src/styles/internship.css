@@ -1,6 +1,6 @@
 .dashboard--content2 {
     background: #fff;
-    height: 700px;
+    height: auto;
     flex: 1;
     border-radius: 20px;
     padding: 2rem;
@@ -9,4 +9,10 @@
     justify-content: space-between;
     flex-direction: column;
 
-  }
+}
+.intern--header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #526d82;
+}
