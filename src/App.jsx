@@ -4,6 +4,13 @@ import Profile from './components/Profile';
 import Navbar from './components/Navbar';
 import Internship from './components/Internship';
 import Scholarship from './components/Scholarship';
+import Communication from './components/Communication';
+import Transportation from './components/Transportation';
+import Issues from './components/Issues';
+import Reservation from './components/Reservation';
+import ResDorm from './components/ResDorm';
+import RecDorm from './components/RecDorm';
+import Community from './components/Community';
 import './App.css';
 
 const App = () => {
@@ -12,6 +19,13 @@ const App = () => {
       <Sidebar />
       <div className="barcontent">
         <Navbar />
+        <Community />
+        <RecDorm />
+        <ResDorm />
+        <Reservation />
+        <Transportation />
+        <Communication />
+        <Issues />
         <Profile />
         <Internship />
         <Scholarship />
